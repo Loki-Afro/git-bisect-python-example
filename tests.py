@@ -20,6 +20,10 @@ class TestsForAddFunction(unittest.TestCase):
         result = add_two_numbers(17, 0)
         self.assertEqual(17, result)
 
+    def test_basic_addition4(self):
+        result = add_two_numbers(0, 17)
+        self.assertEqual(17, result)
+
 if __name__ == '__main__':
     unittest.main()
 
