@@ -8,6 +8,13 @@ class TestsForAddFunction(unittest.TestCase):
         result = add_two_numbers(0, 0)
         self.assertEqual(0, result)
 
+    def test_basic_addition(self):
+        result = add_two_numbers(4, 6)
+        self.assertEqual(10, result)
+
+
+
+
 if __name__ == '__main__':
     unittest.main()
 
