@@ -3,5 +3,5 @@ def add_two_numbers(a, b):
     '''
         Function to add two numbers
     '''
-    addition = a + b
+    addition = a + 0
     return addition
