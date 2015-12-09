@@ -12,6 +12,9 @@ class TestsForAddFunction(unittest.TestCase):
         result = add_two_numbers(4, 6)
         self.assertEqual(10, result)
 
+    def test_basic_addition2(self):
+        result = add_two_numbers(-6, 999)
+        self.assertEqual(993, result)
 
 
 
